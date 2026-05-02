@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AngkorFit - Train Like a Pro</title>
+  <meta name="description" content="AngkorFit Gym Phnom Penh - Premium fitness training inspired by Khmer strength and resilience." />
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://angkorfit.kh/" />
+  <meta property="og:title" content="AngkorFit - Train Like a Pro" />
+  <meta property="og:description" content="AngkorFit Gym Phnom Penh - Premium fitness training inspired by Khmer strength and resilience." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=1200&q=80" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://angkorfit.kh/" />
+  <meta name="twitter:title" content="AngkorFit - Train Like a Pro" />
+  <meta name="twitter:description" content="AngkorFit Gym Phnom Penh - Premium fitness training inspired by Khmer strength and resilience." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=1200&q=80" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icon/android-chrome-512x512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Khmer:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!--
+    ============================================================
+    RESPONSIVE TESTING CHECKLIST (verify on real devices)
+    ============================================================
+    [ ] iPhone SE (375x667) - No text is cut off anywhere
+    [ ] iPhone SE (375x667) - All CTAs are tappable (min 44x44px)
+    [ ] iPhone SE (375x667) - Nav collapses to hamburger menu
+    [ ] iPhone SE (375x667) - Schedule readable without zooming
+    [ ] iPhone SE (375x667) - Form fields not overlapping
+    [ ] Pixel 7 / Android (412x915) - Same checks as above
+    [ ] Tablet (768px) - 2-column membership grid works
+    [ ] Desktop (1200px+) - 3-column layout, full hero
+    [ ] prefers-reduced-motion - Animations disabled
+    [ ] Keyboard nav - Tab through all interactive elements
+    [ ] Zoom to 200% - No layout breakage or horizontal scroll
+    [ ] Touch targets - All buttons/links >= 44x44px
+    [ ] Images lazy-loaded, alt text present on all images
+    [ ] No emojis used anywhere in UI
+    ============================================================
+  -->
+</head>
+<body>
+  <!-- SKIP LINK -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header" role="banner">
+    <div class="header-inner container">
+      <a href="#" class="logo" aria-label="AngkorFit Home">
+        <img
+          class="logo-mark"
+          src="assets/logo/angkorfit-logo-horizontal-gold.png"
+          width="296"
+          height="103"
+          alt="AngkorFit"
+          loading="eager"
+        />
+      </a>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Toggle navigation menu"
+        type="button"
+      >
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav-menu" class="nav-menu" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#classes" class="nav-link">Classes</a></li>
+          <li><a href="#trainers" class="nav-link">Trainers</a></li>
+          <li><a href="#membership" class="nav-link">Membership</a></li>
+          <li><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- TOP PROMOTION STRIP -->
+    <section class="promo-strip" aria-label="Current promotion">
+      <div class="container promo-strip-inner">
+        <p class="promo-strip-text"><strong>New Member Offer:</strong> 25% off first 3 months on Gold and Temple plans. Ends June 30, 2026.</p>
+        <a href="#membership" class="btn btn-primary btn-sm promo-strip-cta">Claim Offer</a>
+      </div>
+    </section>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section" aria-label="Hero banner">
+      <div class="hero-overlay"></div>
+      <div class="hero-bg">
+        <img
+          src="assets/cover/hero-cover-1920x1080-edited.jpg"
+          alt="Dark modern gym interior with state-of-the-art strength equipment and warm golden lighting"
+          loading="eager"
+          class="hero-bg-img"
+        />
+      </div>
+      <div class="hero-content container">
+        <p class="hero-khmer" lang="km">រឹងមាំដូចអង្គរ</p>
+        <h1 class="hero-title">Train Like a <span class="accent">Pro</span></h1>
+        <p class="hero-subtitle">Phnom Penh's performance gym since 2011. Real coaches, proven programs, and a beginner-friendly start.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg hero-cta">Book Free Trial</a>
+          <a href="#schedule" class="btn btn-outline btn-lg hero-cta-secondary">View Schedule</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust-bar" aria-label="Gym trust indicators">
+      <div class="container trust-grid">
+        <article class="trust-item fade-up"><p class="trust-number">15+</p><p class="trust-label">Years Open</p></article>
+        <article class="trust-item fade-up"><p class="trust-number">9,200+</p><p class="trust-label">Member Transformations</p></article>
+        <article class="trust-item fade-up"><p class="trust-number">4.9/5</p><p class="trust-label">Google Rating</p></article>
+        <article class="trust-item fade-up"><p class="trust-number">35</p><p class="trust-label">Local Awards</p></article>
+      </div>
+    </section>
+
+    <!-- START HERE SECTION -->
+    <section class="section start-section" aria-labelledby="start-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="start-heading" class="section-title">Start <span class="accent">Here</span></h2>
+          <p class="section-desc">Simple steps for people who are new to gyms or coming back after a long break.</p>
+        </div>
+        <div class="start-grid">
+          <article class="start-card fade-up">
+            <span class="start-step">Step 1</span>
+            <h3 class="start-title">Choose Your Goal</h3>
+            <p class="start-text">Fat loss, strength, mobility, or confidence. We set a realistic first-month target with you.</p>
+          </article>
+          <article class="start-card fade-up">
+            <span class="start-step">Step 2</span>
+            <h3 class="start-title">Book a Trial Session</h3>
+            <p class="start-text">A coach guides your first workout and explains every movement in plain language.</p>
+          </article>
+          <article class="start-card fade-up">
+            <span class="start-step">Step 3</span>
+            <h3 class="start-title">Meet Your Coach</h3>
+            <p class="start-text">Get your beginner plan: training days, recovery tips, and nutrition basics for week one.</p>
+          </article>
+        </div>
+        <article class="beginner-card fade-up">
+          <h3 class="beginner-title">Beginner Path: Zero Experience Needed</h3>
+          <p class="beginner-text">First 2 weeks are fully guided. No judgment, private starter zone available, and flexible plans with no pressure.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CLASSES SECTION -->
+    <section id="classes" class="section classes-section" aria-labelledby="classes-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">ថ្នាក់ហាត់ប្រាណ</p>
+          <h2 id="classes-heading" class="section-title">Our <span class="accent">Classes</span></h2>
+          <p class="section-desc">Find the discipline that fuels your transformation. All levels welcome.</p>
+        </div>
+
+        <div class="classes-grid">
+          <article class="class-card fade-up">
+            <div class="class-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80"
+                alt="Person practicing yoga in a serene studio with soft warm lighting"
+                loading="lazy"
+                class="class-img"
+              />
+              <div class="class-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="4" r="2"/>
+                  <path d="M15 22a2 2 0 0 1-2-2 2 2 0 0 1-2 2"/>
+                  <path d="M12 6v6l-3 4h6l-3-4"/>
+                  <path d="M7.5 16 4 22l3.5-2L9 22l-1.5-6"/>
+                  <path d="m16.5 16 3.5 6-3.5-2L15 22l1.5-6"/>
+                </svg>
+              </div>
+            </div>
+            <div class="class-body">
+              <h3 class="class-title">Temple Yoga</h3>
+              <p class="class-desc">Build flexibility and inner peace with ancient techniques. Perfect for recovery and mindfulness.</p>
+              <button class="btn btn-outline btn-sm" aria-label="Book a demo for Temple Yoga">Book a Demo</button>
+            </div>
+          </article>
+
+          <article class="class-card fade-up">
+            <div class="class-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80"
+                alt="Athlete performing high intensity interval training exercises"
+                loading="lazy"
+                class="class-img"
+              />
+              <div class="class-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="class-body">
+              <h3 class="class-title">Khmer HIIT</h3>
+              <p class="class-desc">Maximum intensity inspired by ancient warrior conditioning. Burn fat and build explosive endurance.</p>
+              <button class="btn btn-outline btn-sm" aria-label="Book a demo for Khmer HIIT">Book a Demo</button>
+            </div>
+          </article>
+
+          <article class="class-card fade-up">
+            <div class="class-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=600&q=80"
+                alt="Indoor cycling spin class in action with dramatic lighting"
+                loading="lazy"
+                class="class-img"
+              />
+              <div class="class-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="18.5" cy="17.5" r="3.5"/>
+                  <circle cx="5.5" cy="17.5" r="3.5"/>
+                  <circle cx="15" cy="5" r="1"/>
+                  <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="class-body">
+              <h3 class="class-title">Naga Spin</h3>
+              <p class="class-desc">Rhythm-based cycling that flows like the Mekong. Feel the beat, conquer the ride.</p>
+              <button class="btn btn-outline btn-sm" aria-label="Book a demo for Naga Spin">Book a Demo</button>
+            </div>
+          </article>
+
+          <article class="class-card fade-up">
+            <div class="class-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&q=80"
+                alt="Athlete lifting heavy barbell during strength training session"
+                loading="lazy"
+                class="class-img"
+              />
+              <div class="class-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m6.5 6.5 11 11"/>
+                  <path d="m21 21-1-1"/>
+                  <path d="m3 3 1 1"/>
+                  <path d="m18 22 4-4"/>
+                  <path d="m2 6 4-4"/>
+                  <path d="m3 10 7-7"/>
+                  <path d="m14 21 7-7"/>
+                </svg>
+              </div>
+            </div>
+            <div class="class-body">
+              <h3 class="class-title">Stone Strength</h3>
+              <p class="class-desc">Compound lifts and progressive overload built on foundations of stone. Get stronger every session.</p>
+              <button class="btn btn-outline btn-sm" aria-label="Book a demo for Stone Strength">Book a Demo</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINER PROFILES SECTION -->
+    <section id="trainers" class="section trainers-section" aria-labelledby="trainers-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">គ្រូបង្វឹក</p>
+          <h2 id="trainers-heading" class="section-title">Meet the <span class="accent">Team</span></h2>
+          <p class="section-desc">Elite coaches forging the next generation of Khmer warriors.</p>
+        </div>
+
+        <div class="trainers-carousel" role="list">
+          <article class="trainer-card fade-up" role="listitem">
+            <div class="trainer-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&q=80"
+                alt="Trainer Dara Sok - Strength and Conditioning Coach"
+                loading="lazy"
+                class="trainer-img"
+              />
+            </div>
+            <h3 class="trainer-name">Dara Sok</h3>
+            <span class="trainer-specialty">Strength & Conditioning</span>
+            <p class="trainer-bio">Former national bodybuilding competitor with 12 years of coaching experience. Specializes in functional strength and athletic performance.</p>
+          </article>
+
+          <article class="trainer-card fade-up" role="listitem">
+            <div class="trainer-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&q=80"
+                alt="Trainer Sreynith Mao - Yoga and Flexibility Coach"
+                loading="lazy"
+                class="trainer-img"
+              />
+            </div>
+            <h3 class="trainer-name">Sreynith Mao</h3>
+            <span class="trainer-specialty">Yoga & Flexibility</span>
+            <p class="trainer-bio">500-hour certified instructor blending traditional Khmer movement with modern yoga flows. Holistic mind-body transformation.</p>
+          </article>
+
+          <article class="trainer-card fade-up" role="listitem">
+            <div class="trainer-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=400&q=80"
+                alt="Trainer Vannak Prak - HIIT and Cardio Specialist"
+                loading="lazy"
+                class="trainer-img"
+              />
+            </div>
+            <h3 class="trainer-name">Vannak Prak</h3>
+            <span class="trainer-specialty">HIIT & Cardio</span>
+            <p class="trainer-bio">NSCA-certified performance coach. Former Muay Thai fighter bringing explosive energy and discipline to every session.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEGACY / PROMOTIONS / NEWS SECTION -->
+    <section id="legacy" class="section legacy-section" aria-labelledby="legacy-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">បទពិសោធន៍ និង ព័ត៌មានថ្មី</p>
+          <h2 id="legacy-heading" class="section-title">Legacy & <span class="accent">Updates</span></h2>
+          <p class="section-desc">Built with years of coaching experience, community trust, and consistent results.</p>
+        </div>
+
+        <div class="legacy-stats">
+          <article class="legacy-stat-card fade-up">
+            <p class="legacy-stat-number">15+</p>
+            <p class="legacy-stat-label">Years Coaching Experience</p>
+          </article>
+          <article class="legacy-stat-card fade-up">
+            <p class="legacy-stat-number">9,200+</p>
+            <p class="legacy-stat-label">Member Transformations</p>
+          </article>
+          <article class="legacy-stat-card fade-up">
+            <p class="legacy-stat-number">35</p>
+            <p class="legacy-stat-label">Local Fitness Awards</p>
+          </article>
+          <article class="legacy-stat-card fade-up">
+            <p class="legacy-stat-number">4.9/5</p>
+            <p class="legacy-stat-label">Average Community Rating</p>
+          </article>
+        </div>
+
+        <div class="legacy-updates-grid">
+          <article class="legacy-update-card fade-up">
+            <span class="legacy-update-tag">Promotion</span>
+            <h3 class="legacy-update-title">New Member Summer Offer</h3>
+            <p class="legacy-update-meta">Valid until June 30</p>
+            <p class="legacy-update-text">Join this month and get 25% off the first 3 months on Gold and Temple plans.</p>
+          </article>
+
+          <article class="legacy-update-card fade-up">
+            <span class="legacy-update-tag">Achievement</span>
+            <h3 class="legacy-update-title">Best Gym Community 2026</h3>
+            <p class="legacy-update-meta">Phnom Penh Fitness Awards</p>
+            <p class="legacy-update-text">Recognized for coaching quality, hygiene standards, and strong member retention.</p>
+          </article>
+
+          <article class="legacy-update-card fade-up">
+            <span class="legacy-update-tag">News</span>
+            <h3 class="legacy-update-title">New Recovery Zone Open</h3>
+            <p class="legacy-update-meta">Opened in April 2026</p>
+            <p class="legacy-update-text">We expanded with mobility tools, stretching stations, and guided recovery sessions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP PLANS SECTION -->
+    <section id="membership" class="section membership-section" aria-labelledby="membership-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">គម្រោងសមាជិក</p>
+          <h2 id="membership-heading" class="section-title">Choose Your <span class="accent">Plan</span></h2>
+          <p class="section-desc">No lock-in contracts. Train on your terms.</p>
+        </div>
+
+        <div class="plans-grid">
+          <article class="plan-card fade-up">
+            <div class="plan-header">
+              <h3 class="plan-name">Bronze</h3>
+              <p class="plan-price"><span class="plan-currency">$</span>29<span class="plan-period">/mo</span></p>
+            </div>
+            <ul class="plan-features">
+              <li class="plan-feature"> Gym access (6am - 10pm)</li>
+              <li class="plan-feature"> Locker room access</li>
+              <li class="plan-feature"> 2 group classes per week</li>
+              <li class="plan-feature plan-feature--no"> Personal training</li>
+              <li class="plan-feature plan-feature--no"> Nutrition plan</li>
+            </ul>
+            <button class="btn btn-primary plan-cta">Choose Plan</button>
+          </article>
+
+          <article class="plan-card plan-card--featured fade-up" aria-label="Most Popular plan">
+            <div class="plan-badge">Most Popular</div>
+            <div class="plan-header">
+              <h3 class="plan-name">Gold</h3>
+              <p class="plan-price"><span class="plan-currency">$</span>59<span class="plan-period">/mo</span></p>
+            </div>
+            <ul class="plan-features">
+              <li class="plan-feature"> Unlimited gym access</li>
+              <li class="plan-feature"> All group classes</li>
+              <li class="plan-feature"> 2 personal training sessions</li>
+              <li class="plan-feature"> Nutrition starter plan</li>
+              <li class="plan-feature"> Guest passes (2 per month)</li>
+            </ul>
+            <button class="btn btn-primary plan-cta">Choose Plan</button>
+          </article>
+
+          <article class="plan-card fade-up">
+            <div class="plan-header">
+              <h3 class="plan-name">Temple</h3>
+              <p class="plan-price"><span class="plan-currency">$</span>99<span class="plan-period">/mo</span></p>
+            </div>
+            <ul class="plan-features">
+              <li class="plan-feature"> 24/7 gym access</li>
+              <li class="plan-feature"> Unlimited classes + workshops</li>
+              <li class="plan-feature"> 8 personal training sessions</li>
+              <li class="plan-feature"> Full nutrition & recovery plan</li>
+              <li class="plan-feature"> Priority class booking</li>
+            </ul>
+            <button class="btn btn-primary plan-cta">Choose Plan</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE / TIMETABLE SECTION -->
+    <section id="schedule" class="section schedule-section" aria-labelledby="schedule-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">តារាងម៉ាង</p>
+          <h2 id="schedule-heading" class="section-title">Weekly <span class="accent">Schedule</span></h2>
+          <p class="section-desc">Plan your week. Every class is led by our expert trainers.</p>
+        </div>
+
+        <!-- Desktop/tablet table -->
+        <div class="schedule-table-wrapper">
+          <table class="schedule-table" aria-label="Weekly class schedule">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Mon</th>
+                <th scope="col">Tue</th>
+                <th scope="col">Wed</th>
+                <th scope="col">Thu</th>
+                <th scope="col">Fri</th>
+                <th scope="col">Sat</th>
+                <th scope="col">Sun</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="schedule-time">6:00 AM</td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+              </tr>
+              <tr>
+                <td class="schedule-time">7:30 AM</td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Stone Strength</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Stone Strength</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+              </tr>
+              <tr>
+                <td class="schedule-time">12:00 PM</td>
+                <td class="schedule-cell"><span class="schedule-class">Stone Strength</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Stone Strength</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+              </tr>
+              <tr>
+                <td class="schedule-time">5:30 PM</td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Stone Strength</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+              </tr>
+              <tr>
+                <td class="schedule-time">7:00 PM</td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Khmer HIIT</span><span class="schedule-trainer">Vannak</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Naga Spin</span><span class="schedule-trainer">Dara</span></td>
+                <td class="schedule-cell"><span class="schedule-class">Temple Yoga</span><span class="schedule-trainer">Sreynith</span></td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+                <td class="schedule-cell schedule-cell--rest">Rest Day</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Mobile stacked schedule cards -->
+        <div class="schedule-mobile" aria-label="Weekly class schedule mobile view">
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Monday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">12:00 PM</span><span class="schedule-mobile-class">Stone Strength</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">5:30 PM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:00 PM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Tuesday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Stone Strength</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">12:00 PM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">5:30 PM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:00 PM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Wednesday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">12:00 PM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">5:30 PM</span><span class="schedule-mobile-class">Stone Strength</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:00 PM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Thursday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Stone Strength</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">12:00 PM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">5:30 PM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:00 PM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Friday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">12:00 PM</span><span class="schedule-mobile-class">Stone Strength</span><span class="schedule-mobile-trainer">Dara</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">5:30 PM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:00 PM</span><span class="schedule-mobile-class">Temple Yoga</span><span class="schedule-mobile-trainer">Sreynith</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Saturday</h3>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">6:00 AM</span><span class="schedule-mobile-class">Khmer HIIT</span><span class="schedule-mobile-trainer">Vannak</span></div>
+            <div class="schedule-mobile-item"><span class="schedule-mobile-time">7:30 AM</span><span class="schedule-mobile-class">Naga Spin</span><span class="schedule-mobile-trainer">Dara</span></div>
+          </div>
+          <div class="schedule-day-group">
+            <h3 class="schedule-day-heading">Sunday</h3>
+            <p class="schedule-rest-day">Rest day - gym open for self-training</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / LOCATION SECTION -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-khmer" lang="km">ទំនាក់ទំនង</p>
+          <h2 id="contact-heading" class="section-title">Get in <span class="accent">Touch</span></h2>
+          <p class="section-desc">Have a question? Drop us a message or visit us in Phnom Penh.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form fade-up" novalidate>
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                class="form-input"
+                placeholder="e.g. Sopheap Chhay"
+                required
+                autocomplete="name"
+              />
+              <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                class="form-input"
+                placeholder="e.g. sopheap@example.com"
+                required
+                autocomplete="email"
+              />
+              <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="Tell us what you are looking for..."
+                rows="5"
+                required
+              ></textarea>
+              <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg form-submit">Send Message</button>
+          </form>
+
+          <div class="contact-map-wrapper fade-up">
+            <iframe
+              class="contact-map"
+              title="AngkorFit Gym location in Phnom Penh"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.01419370504!2d104.922!3d11.5564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDMzJzIzLjAiTiAxMDTCsDU1JzE5LjIiRQ!5e0!3m2!1sen!2skh!4v1690000000000!5m2!1sen!2skh"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section faq-section" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="faq-heading" class="section-title">Common <span class="accent">Questions</span></h2>
+          <p class="section-desc">Quick answers before your first visit.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq-item fade-up"><h3 class="faq-q">I am a beginner. Can I still join?</h3><p class="faq-a">Yes. Most new members start as beginners and follow our guided starter path.</p></article>
+          <article class="faq-item fade-up"><h3 class="faq-q">Do you have contracts?</h3><p class="faq-a">No long lock-in. You can choose flexible monthly plans.</p></article>
+          <article class="faq-item fade-up"><h3 class="faq-q">Do you have parking and showers?</h3><p class="faq-a">Yes. On-site parking and clean shower rooms are available daily.</p></article>
+          <article class="faq-item fade-up"><h3 class="faq-q">What language do coaches speak?</h3><p class="faq-a">Khmer and English support is available across all core programs.</p></article>
+          <article class="faq-item fade-up"><h3 class="faq-q">How long is a session?</h3><p class="faq-a">Most sessions are 45 to 60 minutes depending on your program.</p></article>
+          <article class="faq-item fade-up"><h3 class="faq-q">Can I try before membership?</h3><p class="faq-a">Yes. Book a free trial session and meet a coach first.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4 class="footer-heading">AngkorFit</h4>
+        <address class="footer-address">
+          No. 126 Street 51 (Pasteur),<br />
+          Boeung Keng Kang I, Chamkarmon,<br />
+          Phnom Penh 12302, Cambodia<br />
+          <a href="tel:+85523212345" class="footer-link">(+855) 23 212 345</a><br />
+          <a href="mailto:train@angkorfit.kh" class="footer-link">train@angkorfit.kh</a>
+        </address>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Opening Hours</h4>
+        <ul class="footer-hours">
+          <li><span>Mon - Fri</span><span>5:00 AM - 10:00 PM</span></li>
+          <li><span>Saturday</span><span>6:00 AM - 8:00 PM</span></li>
+          <li><span>Sunday</span><span>7:00 AM - 6:00 PM</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Follow Us</h4>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="AngkorFit on Instagram">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="AngkorFit on X (Twitter)">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="AngkorFit on YouTube">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="AngkorFit on LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-col--badge">
+        <p class="footer-badge">Handcrafted in Cambodia. AngkorFit &copy; 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </a>
+
+  <!-- MOBILE STICKY CTA -->
+  <a href="#contact" class="mobile-sticky-cta">Book Free Trial</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
