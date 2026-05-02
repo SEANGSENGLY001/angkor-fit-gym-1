@@ -1,0 +1,26 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tool Artifacts
+.playwright-mcp/
+.gemini/
+.roo/
+
+# Node (just in case you add npm later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build / Output directories (if added later)
+dist/
+build/
